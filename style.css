@@ -1,0 +1,63 @@
+.title{
+    text-align: center;
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+}
+
+.hz{
+    text-align: center;
+    font-size: 40px;
+    margin: 30px auto 30px auto;
+    width:100%;
+}
+    /* font-family: 'Anton', sans-serif; */
+
+.text-wrapper {
+    display:flex;
+    justify-content: space-evenly;
+    flex-wrap:wrap;
+}
+.portfolio-header-wrapper{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
+    url("/nyc-photo-morning.jpeg"); 
+    background-repeat: no-repeat;
+    background-position: left bottom; 
+    background-size: cover;
+    min-height:100vh;
+}
+.container {
+    display: block;
+    width: 100%;
+}
+.about-me{
+    display: flex;
+    margin: 10px auto;
+    max-width: 990px;
+}
+.profile-picture-container{
+    width: 40%;
+}
+.profile-picture{
+    box-shadow: 0 2px 4px 0;
+    border-radius: 100px;
+    margin: 0 auto;
+    height: 180px;
+}
+
+.bio-paragraph {
+    display: inline-block;
+    position: relative;
+    margin: 0px auto;
+    padding-top: 20px;
+}
+.projects-container{
+    margin: 0 auto;
+    width: 990px;
+}
+
+footer{
+    margin: 0px auto;
+    padding: 20px;
+    background-color: #F59E10;
+}
