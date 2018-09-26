@@ -13,8 +13,7 @@
   <!-- <link rel="manifest" href="%PUBLIC_URL%/manifest.json"> -->
   <!-- <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico"> -->
   <link rel="stylesheet" type="text/css" href="style.css" />
-  <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
-
+  <link href="https://fonts.googleapis.com/css?family=Merriweather|Montserrat" rel="stylesheet">
   <!--
       Notice the use of %PUBLIC_URL% in the tags above.
       It will be replaced with the URL of the `public` folder during the build.
@@ -47,57 +46,84 @@
       <h1 class='hz'>HOWIE ZHU</h1>
     </div>
     <div class='text-wrapper'>
-      <a class= 'github' href="https://github.com/LifeisaJourney">GITHUB</a>
-      
+      <a class='github' href="https://github.com/LifeisaJourney">GITHUB</a>
+
       <a class='linked' href='https://www.linkedin.com/in/howie-zhu/'>LINKEDIN</a>
       <a class='resumeLink'>RESUME</a>
     </div>
   </div>
-  <section class='container'>
-    <div class='about-me'>
-      <div class="profile-picture-container">
-        <img class="profile-picture" src='https://i.imgur.com/5vWK2es.png' alt='howie zhu'>
+  <div class='overwrap'>
+    <section class='container'>
+      <div class='about-me'>
+        <div class="profile-picture-container">
+          <img class="profile-picture" src='https://i.imgur.com/5vWK2es.png' alt='howie zhu'>
+        </div>
+        <div>
+          <p class='bio-paragraph'>
+            "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur impedit dolore expedita suscipit
+            optio.
+            Commodi, expedita consequatur. Quasi maiores soluta ab perspiciatis eum minima, minus reprehenderit,
+            molestiae ea, nam nulla."
+          </p>
+        </div>
       </div>
-      <div>
-        <p class='bio-paragraph'>
-          "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur impedit dolore expedita suscipit optio.
-          Commodi, expedita consequatur. Quasi maiores soluta ab perspiciatis eum minima, minus reprehenderit,
-          molestiae ea, nam nulla."
-        </p>
-      </div>
-    </div>
-  </div>
-  <div class="projects-container">
-    <div class='projects-header'>
-      <a href="https://pages.git.generalassemb.ly/LifeH/project-1-SINK-THAT-SUBMARINE/">
-        <h2>
-          Project 1: Sink That Submarine
-        </h2>
-      </a>
+      <div class="projects-container">
+        <div class='projects-header'>
+          <a href="https://pages.git.generalassemb.ly/LifeH/project-1-SINK-THAT-SUBMARINE/">
+            <h2>
+              Project 1: Sink That Submarine
+            </h2>
+          </a>
 
-    </div>
-    <div class = 'projects-description'>
-      <p>
-        "An interactive JavaScript game of a submarine that you have to shoot down. This game comes with a twist! The first position of the submarine is given. Then, the submarine will move in one of the directions (horizontally or vertically by one block). The player will have to guess which one of those direction the submarine has moved to. Then, everytime the player clicks and misses the target, the submarine can move again. The highest chance of winning is at the beginning, since it could range from 25% to 50% of getting it right on the first move. The submarine is on a 1x1 block."
-      </p>
-    </div>
-    <div class='projects-header'>
-      <a href='https://findadoc.herokuapp.com/'>
-        <h2>
-          Project 2: Find A Doc
-        </h2>
-      </a>
-      </div>
-      <div class = 'projects-description'>
-        <p>
-          "The idea of this website is to find the nearest doctor based on the input for your zipcode entered. The return results will lists all doctors on a map and list based on distance. Each search inquery will return ten results, with a search radius of ten miles.
+        </div>
+        <div class='projects-description'>
+          <p>
+            "An interactive JavaScript game of a submarine that you have to shoot down. This game comes with a twist!
+            The
+            first position of the submarine is given. Then, the submarine will move in one of the directions
+            (horizontally or vertically by one block). The player will have to guess which one of those direction the
+            submarine has moved to. Then, everytime the player clicks and misses the target, the submarine can move
+            again. The highest chance of winning is at the beginning, since it could range from 25% to 50% of getting
+            it
+            right on the first move. The submarine is on a 1x1 block."
+          </p>
+        </div>
+        <div class='projects-header'>
+          <a href='https://findadoc.herokuapp.com/'>
+            <h2>
+              Project 2: Find A Doc
+            </h2>
+          </a>
+        </div>
+        <div class='projects-description'>
+          <p>
+            "The idea of this website is to find the nearest doctor based on the input for your zipcode entered. The
+            return results will lists all doctors on a map and list based on distance. Each search inquery will return
+            ten results, with a search radius of ten miles.
 
-          On the backend of the website, the zipcode is converted into longitude and lattitude for API search parameters. That data will be used to pull from BetterDoctor API that lists the closest doctors that are still accepting new patients. Then using MapBox, I rendered the doctor offices as markers on the map. This website pulls data from three API's (Mapbox, Google Map, and BetterDoctor) with access token fully hidden. Google API was used to convert zipcode into longitude and lattitude."
-        </p>
+            On the backend of the website, the zipcode is converted into longitude and lattitude for API search
+            parameters. That data will be used to pull from BetterDoctor API that lists the closest doctors that are
+            still accepting new patients. Then using MapBox, I rendered the doctor offices as markers on the map. This
+            website pulls data from three API's (Mapbox, Google Map, and BetterDoctor) with access token fully hidden.
+            Google API was used to convert zipcode into longitude and lattitude."
+          </p>
+        </div>
+        <div class='projects-header'>
+          <a href=''>
+            <h2>
+              Project 3: TBD
+            </h2>
+          </a>
+        </div>
+        <div class='projects-description'>
+          <p>
+            "Coming Soon"
+          </p>
+        </div>
       </div>
   </div>
   <footer>
-    @2018
+    Howie Zhu @ 2018
   </footer>
 </body>
 
