@@ -71,7 +71,7 @@ h2{
 .bio-paragraph {
     display: inline-block;
     position: relative;
-    margin: 0px auto;
+    margin: 0px auto 0px 20px;
     padding-top: 20px;
     font-family: 'Merriweather', serif;
 }
