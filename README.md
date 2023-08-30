@@ -10,4 +10,4 @@ My personal portfolio using HTML & CSS
 
 ## License
 
-Copyright © 2017–2022 [Howie Zhu](https://howiezhu.com)
+Copyright © 2017–2024 [Howie Zhu](https://howiezhu.com)
