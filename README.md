@@ -1,6 +1,7 @@
 ## Portfolio
 
-My personal portfolio using HTML & CSS
+My personal portfolio using HTML & CSS/
+Edit on github, deploy on netlify
 
 ## Credits
 
