@@ -11,4 +11,4 @@ Edit on github, deploy on netlify
 
 ## License
 
-Copyright © 2017–2024 [Howie Zhu](https://howiezhu.com)
+Copyright © 2017–2026 [Howie Zhu](https://howiezhu.com)
