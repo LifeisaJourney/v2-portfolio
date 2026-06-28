@@ -1,7 +1,6 @@
 ## Portfolio
 
-My personal portfolio using HTML & CSS/
-Edit on github, deploy on netlify
+My personal static portfolio using HTML & CSS, then edit on VSCode and submit PRs. Deploy on netlify.
 
 ## Credits
 
